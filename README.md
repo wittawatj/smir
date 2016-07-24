@@ -12,7 +12,7 @@ In our framework of squared-loss mutual information (SMI) regularization, we lea
 following two criteria are respected (with some tradeoff):
 
 1. The predictive loss on the class labels is minimized.
-2. The squared-loss version of mutual information between the unlabeled data, and the class labels is maximized.
+2. A squared-loss version of the mutual information between the unlabeled data, and the class labels is maximized.
 
 Advantages of this approach are: 1. analytic solution, 2. out-of-sample classification, 3. probabilistic output.
 All parameters are automatically tuned by cross validation.
